@@ -1,8 +1,8 @@
 ---
 - name: Update apt cache
-  apt:
+  become: true
+  ansible.builtin.apt:
     update_cache: yes
-  become: yes
 
 - name: Install MySQL and dependencies
   become: yes
@@ -23,7 +23,7 @@
     state: started
     enabled: yes
 
-- name: Create MySQL user (medium_post)
+- name: Create MySQL user
   become: yes
   mysql_user:
     name: "{{ db_user }}"
@@ -32,7 +32,7 @@
     host: '%'
     state: present
 
-- name: Create medium_db
+- name: Create database
   become: yes
   mysql_db:
     name: "{{ db_name }}"
