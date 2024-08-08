@@ -21,10 +21,10 @@ db.connect((err) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello from Backend, Node Js Application.');
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port ${PORT}`);
 });
 
