@@ -85,6 +85,16 @@ This playbook verifies the deployment and functionality of each tier.
     ansible-playbook -i inventory/hosts.ini playbooks/test.yml
     ```
 
+## Output:
+- ![image](https://github.com/user-attachments/assets/c3344d6c-e8d1-4d3b-9e9d-e453461c9325)
+- ![image](https://github.com/user-attachments/assets/6f2f72d2-ca82-4a85-9b70-d12b4d073ae3)
+- ![image](https://github.com/user-attachments/assets/40887b1d-cba6-4a03-899b-99668b6b7e76)
+- ![image](https://github.com/user-attachments/assets/6f59ce51-df8d-4a7b-bfca-c46d20bb9a79)
+
+
+
+
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
