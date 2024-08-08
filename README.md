@@ -91,6 +91,8 @@ This playbook verifies the deployment and functionality of each tier.
 - ![image](https://github.com/user-attachments/assets/6f2f72d2-ca82-4a85-9b70-d12b4d073ae3)
 - ![image](https://github.com/user-attachments/assets/40887b1d-cba6-4a03-899b-99668b6b7e76)
 - ![image](https://github.com/user-attachments/assets/6f59ce51-df8d-4a7b-bfca-c46d20bb9a79)
+- ![image](https://github.com/user-attachments/assets/54c468e1-86d3-4d4f-bfc5-8f95de69a90f)
+
 
 
 
